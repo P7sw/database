@@ -14,7 +14,7 @@ do
   #-S localhost\MSSQLSERVER
   echo "running $file with sqlcmd"
 done
-
+ 
 cd /../../../../../usr/games/data-files/create-tables/
 pwd
 for file in ./*
