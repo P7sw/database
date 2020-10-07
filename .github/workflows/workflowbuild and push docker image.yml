@@ -15,4 +15,4 @@ jobs:
           username: ${{ secrets.KENNETH_DOCKER_TAG }}
           password: ${{ secrets.KENNETH_DOCKER_PASSWORD }}
           repository: gaticks/p7
-          tag: sql-server
+          tags: sql-server
