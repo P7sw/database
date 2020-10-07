@@ -6,6 +6,8 @@ RUN mkdir ./home/data-files/create-tables
 
 COPY /create-schemas /usr/games/data-files/create-schemas
 COPY /create-table /usr/games/data-files/create-tables
+COPY /insert-data /usr/games/data-files/insert-data
+
 COPY runSQL.sh /usr/games/data-files/runSQL.sh
 RUN dos2unix /usr/games/data-files/runSQL.sh
 RUN chmod +x /usr/games/data-files/runSQL.sh
