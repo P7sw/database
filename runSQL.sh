@@ -1,5 +1,5 @@
 #!/bin/bash
-sleep 20
+sleep 30
 echo '#!/bin/sh 123'
 #https://stackoverflow.com/questions/10523415/execute-command-on-all-files-in-a-directory
 #shopt -s nullglob # to avoid getting "file" on empty dir

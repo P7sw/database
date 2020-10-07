@@ -13,6 +13,6 @@ RUN dos2unix /usr/games/data-files/start.sh
 
 #RUN /bin/bash ./usr/games/data-files/runSQL.sh
 
-#ENTRYPOINT ["./../../usr/games/data-files/runSQL.sh"]
+ENTRYPOINT ["./../../usr/games/data-files/start.sh"]
 #./../../usr/games/data-files/runSQL.sh
 # & ./../../opt/mssql/bin/sqlservr
