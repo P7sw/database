@@ -1,6 +1,8 @@
 #!/bin/bash
-sleep 30
+echo 'HEERE ' $1
+sleep $1
 echo '#!/bin/sh 123'
+
 cd /../../../usr/games/data-files/create-schemas/
 
 echo 'changed directory to:'
