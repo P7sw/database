@@ -1,2 +1,2 @@
 #!/bin/bash
-./../../../../opt/mssql/bin/sqlservr & ./runSQL.sh
+./../../../../../../../opt/mssql/bin/sqlservr & ./runSQL.sh

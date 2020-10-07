@@ -9,10 +9,9 @@ COPY /create-table /usr/games/data-files/create-tables
 COPY runSQL.sh /usr/games/data-files/runSQL.sh
 RUN dos2unix /usr/games/data-files/runSQL.sh
 RUN chmod +x /usr/games/data-files/runSQL.sh
-COPY runSQL.sh /usr/games/data-files/start.sh
+COPY start.sh /usr/games/data-files/start.sh
 RUN dos2unix /usr/games/data-files/start.sh
 RUN chmod +x /usr/games/data-files/start.sh
-
 #RUN /bin/bash ./usr/games/data-files/runSQL.sh
 
 ENTRYPOINT ["./../../usr/games/data-files/start.sh"]
