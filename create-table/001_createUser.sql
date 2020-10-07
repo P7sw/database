@@ -1,4 +1,4 @@
-create table [main].[user](
+create table users(
     userId int NOT NULL ,
     name varchar(1000),
     mail varchar(1000),

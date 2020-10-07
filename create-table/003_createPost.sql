@@ -1,4 +1,4 @@
-create table [main].[post](
+create table posts(
     postId int NOT NULL,
     title varchar (500),
     body varchar (max),
@@ -7,6 +7,6 @@ create table [main].[post](
     createdAt DateTime,
     lastModified DateTime,
     PRIMARY KEY (postId),
-    FOREIGN KEY (createdby) REFERENCES [main].[user](userId),
-    FOREIGN KEY (category) REFERENCES [main].board(boardId)
+    FOREIGN KEY (createdby) REFERENCES [users](userId),
+    FOREIGN KEY (category) REFERENCES boards(boardId)
 )

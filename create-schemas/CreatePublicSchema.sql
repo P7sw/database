@@ -1,1 +1,1 @@
-create schema [main];
+--create schema [main];
