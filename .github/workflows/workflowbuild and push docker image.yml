@@ -14,5 +14,5 @@ jobs:
         with:
           username: ${{ secrets.KENNETH_DOCKER_TAG }}
           password: ${{ secrets.KENNETH_DOCKER_PASSWORD }}
-          repository: gaticks/p7:sql-server
-          tag_with_ref: false
+          repository: gaticks/p7
+          tag_with_ref: true
