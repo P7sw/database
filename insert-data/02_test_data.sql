@@ -15,6 +15,7 @@ A literal and figurative weight has been lifted from me again. I don’t have to
 It feels so good to through societies standards in the wind and do what is life giving to myself for once!'
 , 77777
 , 1622304
-, 01/01/2020
-, 01/01/2020
+, datefromparts(2020, 1, 25)
+, datefromparts(2020,1 ,25)
 )
+
