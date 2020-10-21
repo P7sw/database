@@ -1,2 +1,2 @@
 INSERT INTO comments(commentId, body, createdBy, repliedTo, createdAt, lastModified)
-VALUES (22223, 'You should call this number 911 immediatly', 32323, 2232323, datefromparts(2020, 1, 25), datefromparts(2020, 1, 25))
+VALUES (22223, 'You should call this number 911 immediatly', 1, 2232323, datefromparts(2020, 1, 25), datefromparts(2020, 1, 25))
