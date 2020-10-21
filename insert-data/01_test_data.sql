@@ -1,4 +1,5 @@
-INSERT INTO [users] (userId,[name], mail, password, passwordSalt) VALUES (32323, 'vinothan', 'vino@system.dk', 'cb28e00ef51374b841fb5c189b2b91c9', '123456')
+
+INSERT INTO [users] (userId,[name], mail, password, passwordSalt) VALUES (1, 'vinothan', 'vino@system.dk', 'cb28e00ef51374b841fb5c189b2b91c9', '123456')
 INSERT INTO [users] (userId,[name], mail, password, passwordSalt) VALUES (90433, 'aske', 'aske@outlook.dk', '44bf025d27eea66336e5c1133c3827f7', 'password')
 
 --INSERT INTO [users] (userId,[name] mail, password, passwordSalt) VALUES (74399, 'aoren@mail.dk', '1245ko')
@@ -14,7 +15,7 @@ INSERT INTO boards(boardId, boardName, description) VALUES (1445555, 'death in t
 INSERT INTO boards(boardId, boardName, description) VALUES (1522304, 'Target of rape', 'If you are depressed because someone raped you')
 INSERT INTO boards(boardId, boardName, description) VALUES (1622304, 'Heartbroken', 'If you are depressed because you are heartbroken')
 INSERT INTO posts(postId, title, body, createdBy, category, createdAt, lastModified)
-VALUES (12227, 'My dad raped me', ' I am despressed and want to kill myself', 32323, 1222306, datefromparts(2020, 1, 25), datefromparts(2020,1 ,25) )
+VALUES (12227, 'My dad raped me', ' I am despressed and want to kill myself', 1, 1222306, datefromparts(2020, 1, 25), datefromparts(2020,1 ,25) )
 INSERT INTO posts(postId, title, body, createdBy, category, createdAt, lastModified)
 VALUES (22223, 'My dad bullied me', ' I am despressed and i want to kill myself', 90433, 1445555, datefromparts(2021,2,23), datefromparts(2022,5,28))
 INSERT INTO posts(postId, title, body, createdBy, category, createdAt, lastModified)
