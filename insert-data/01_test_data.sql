@@ -15,7 +15,7 @@ INSERT INTO boards(boardName, description) VALUES ( 'death in the family', 'If y
 INSERT INTO boards(boardName, description) VALUES ( 'Target of rape', 'If you are depressed because someone raped you')
 INSERT INTO boards(boardName, description) VALUES ( 'Heartbroken', 'If you are depressed because you are heartbroken')
 INSERT INTO posts(title, body, createdBy, category, createdAt, lastModified)
-VALUES ( 'My dad raped me', ' I am despressed and want to kill myself', 1, 1222306, datefromparts(2020, 1, 25), datefromparts(2020,1 ,25) )
+VALUES ( 'My dad raped me', ' I am despressed and want to kill myself', 1, 1, datefromparts(2020, 1, 25), datefromparts(2020,1 ,25) )
 INSERT INTO posts(title, body, createdBy, category, createdAt, lastModified)
 VALUES ('My dad bullied me', ' I am despressed and i want to kill myself', 1, 1, datefromparts(2021,2,23), datefromparts(2022,5,28))
 INSERT INTO posts(title, body, createdBy, category, createdAt, lastModified)
