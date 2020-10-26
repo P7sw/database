@@ -4,6 +4,6 @@ create table boards(
     boardName varchar(1000),
     description varchar(max),
     PRIMARY KEY (boardId)
-)
+);
 
 SET IDENTITY_INSERT Boards ON;

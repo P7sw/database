@@ -6,6 +6,6 @@ create table users(
     passwordSalt varchar(1000),
     PRIMARY KEY (userId),
 
-)
+);
 
 SET IDENTITY_INSERT users ON;
