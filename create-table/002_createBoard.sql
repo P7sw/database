@@ -5,3 +5,5 @@ create table boards(
     description varchar(max),
     PRIMARY KEY (boardId)
 )
+
+SET IDENTITY_INSERT Boards ON;

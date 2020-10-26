@@ -7,3 +7,5 @@ create table users(
     PRIMARY KEY (userId),
 
 )
+
+SET IDENTITY_INSERT users ON;

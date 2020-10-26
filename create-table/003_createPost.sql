@@ -10,3 +10,5 @@ create table posts(
     FOREIGN KEY (createdby) REFERENCES [users](userId),
     FOREIGN KEY (category) REFERENCES boards(boardId)
 )
+
+SET IDENTITY_INSERT Posts ON;
