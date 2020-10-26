@@ -1,6 +1,6 @@
 INSERT INTO posts(postId, title, body, createdBy, category, createdAt, lastModified)
 VALUES (
-4
+null
 , 'I said goodbye to my hair for now'
 , 'I am 27F and I have dealt with with severe depression and anxiety for some time now, but it has been especially bad these last several months.
 
