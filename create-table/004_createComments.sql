@@ -10,4 +10,4 @@ create table comments(
     FOREIGN KEY (repliedTo) REFERENCES posts
 );
 
-SET IDENTITY_INSERT Customers ON;
+SET IDENTITY_INSERT comments ON;
