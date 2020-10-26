@@ -1,6 +1,6 @@
 
 create table boards(
-    boardId int NOT NULL IDENTITY,
+    boardId int NOT NULL IDENTITY(10,1),
     boardName varchar(1000),
     description varchar(max),
     PRIMARY KEY (boardId)
