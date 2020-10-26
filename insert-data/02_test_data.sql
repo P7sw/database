@@ -1,6 +1,6 @@
 INSERT INTO posts(postId, title, body, createdBy, category, createdAt, lastModified)
 VALUES (
-1
+4
 , 'I said goodbye to my hair for now'
 , 'I am 27F and I have dealt with with severe depression and anxiety for some time now, but it has been especially bad these last several months.
 
@@ -14,7 +14,7 @@ A literal and figurative weight has been lifted from me again. I don’t have to
 
 It feels so good to through societies standards in the wind and do what is life giving to myself for once!'
 , 1
-, 1622304
+, 3
 , datefromparts(2020, 1, 25)
 , datefromparts(2020,1 ,25)
 )

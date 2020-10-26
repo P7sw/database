@@ -1,5 +1,5 @@
 create table comments(
-    commentId int NOT NULL,
+    commentId int NOT NULL IDENTITY,
     body varchar (max),
     createdBy int,
     repliedTo int,
