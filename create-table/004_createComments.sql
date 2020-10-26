@@ -10,4 +10,3 @@ create table comments(
     FOREIGN KEY (repliedTo) REFERENCES posts
 );
 
-SET IDENTITY_INSERT [master].[dbo].[comments] ON;

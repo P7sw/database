@@ -6,4 +6,3 @@ create table boards(
     PRIMARY KEY (boardId)
 );
 
-SET IDENTITY_INSERT [master].[dbo].[boards] ON;

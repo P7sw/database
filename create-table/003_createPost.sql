@@ -11,4 +11,3 @@ create table posts(
     FOREIGN KEY (category) REFERENCES boards(boardId)
 );
 
-SET IDENTITY_INSERT [master].[dbo].[posts] ON;
