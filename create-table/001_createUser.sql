@@ -8,4 +8,4 @@ create table users(
 
 );
 
-SET IDENTITY_INSERT users ON;
+SET IDENTITY_INSERT [master].[dbo].[users] ON;
