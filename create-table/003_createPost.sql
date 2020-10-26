@@ -1,5 +1,5 @@
 create table posts(
-    postId int NOT NULL IDENTITY(10,1),
+    postId int NOT NULL IDENTITY,
     title varchar (500),
     body varchar (max),
     createdBy int,

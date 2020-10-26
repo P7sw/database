@@ -1,7 +1,6 @@
-INSERT INTO posts(postId, title, body, createdBy, category, createdAt, lastModified)
+INSERT INTO posts(title, body, createdBy, category, createdAt, lastModified)
 VALUES (
-null
-, 'I said goodbye to my hair for now'
+ 'I said goodbye to my hair for now'
 , 'I am 27F and I have dealt with with severe depression and anxiety for some time now, but it has been especially bad these last several months.
 
 At the beginning of the year, I shaved my head when my mom lost her hair to chemo so I could do something to physically support her and her journey.
