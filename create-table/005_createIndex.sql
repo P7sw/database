@@ -1,6 +1,6 @@
 create table index_token (
  tokenId int not null IDENTITY,
- token varchar(255)
+ token varchar(255) unique,
  primary key(tokenId)
 );
 
@@ -14,9 +14,8 @@ create table index_postToken(
 );
 
 create table index_tokenLocation(
- tokenLocationId int not null IDENTITY,
+ tokenLocationId int not null IDENTITY primary key,
  postTokenId int references index_postToken,
  location int,
- primary key(tokenLocationId),
  index index_tokenLocation_FK_index_post_token (postTokenId)
 );
