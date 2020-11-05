@@ -3,5 +3,6 @@ create table users(
     name varchar(1000),
     mail varchar(1000),
     password varchar(1000),
+    token varchar(1000),
     PRIMARY KEY (userId)
 )
