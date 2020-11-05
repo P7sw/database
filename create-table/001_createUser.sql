@@ -1,8 +1,10 @@
 create table users(
-    userId int NOT NULL ,
+    userId int NOT NULL IDENTITY,
     name varchar(1000),
     mail varchar(1000),
     password varchar(1000),
-    token varchar(1000),
-    PRIMARY KEY (userId)
-)
+    passwordSalt varchar(1000),
+    PRIMARY KEY (userId),
+
+);
+

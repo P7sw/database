@@ -1,7 +1,6 @@
-INSERT INTO posts(postId, title, body, createdBy, category, createdAt, lastModified)
+INSERT INTO posts(title, body, createdBy, category, createdAt, lastModified)
 VALUES (
-1
-, 'I said goodbye to my hair for now'
+ 'I said goodbye to my hair for now'
 , 'I am 27F and I have dealt with with severe depression and anxiety for some time now, but it has been especially bad these last several months.
 
 At the beginning of the year, I shaved my head when my mom lost her hair to chemo so I could do something to physically support her and her journey.
@@ -13,8 +12,8 @@ I have been so overwhelmed lately, especially with the mundane tasks of caring f
 A literal and figurative weight has been lifted from me again. I don’t have to worry about styling my hair or being self conscious about how it looks in the awkward growing out stages. I can worry about that when my mental health is in better shape.
 
 It feels so good to through societies standards in the wind and do what is life giving to myself for once!'
-, 77777
-, 1622304
+, 1
+, 3
 , datefromparts(2020, 1, 25)
 , datefromparts(2020,1 ,25)
 )
