@@ -4,7 +4,6 @@ create table users(
     mail varchar(1000),
     password varchar(1000),
     passwordSalt varchar(1000),
-    tokens varchar(1000),
     PRIMARY KEY (userId),
 );
 
