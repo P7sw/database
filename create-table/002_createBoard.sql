@@ -1,4 +1,3 @@
-
 create table boards(
     boardId int NOT NULL IDENTITY,
     boardName varchar(1000),
