@@ -1,6 +1,9 @@
 
-INSERT INTO [users] ([name], mail, password, passwordSalt) VALUES ('vinothan', 'vino@system.dk', 'cb28e00ef51374b841fb5c189b2b91c9', '123456')
-INSERT INTO [users] ([name], mail, password, passwordSalt) VALUES ('aske', 'aske@outlook.dk', '44bf025d27eea66336e5c1133c3827f7', 'password')
+INSERT INTO [users] ([name], mail, password, passwordSalt) VALUES ('vinothan', 'vino@system.dk', 'aca2d6bd777ac00e4581911a87dcc8a11b5faf11e08f584513e380a01693ef38', '123456')
+INSERT INTO [users] ([name], mail, password, passwordSalt) VALUES ('aske', 'aske@outlook.dk', 'd465a26b97465ebc976ddd74fbca41d8329ee45961effa84b4cde57e5a42a284', 'password')
+
+
+
 
 --INSERT INTO [users] (userId,[name] mail, password, passwordSalt) VALUES (74399, 'aoren@mail.dk', '1245ko')
 --INSERT INTO [users] (userId,[name] mail, password, passwordSalt) VALUES (93939, 'kage@gmail.dk', '1245ko')
