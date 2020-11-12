@@ -1,10 +1,10 @@
 
 INSERT INTO [users] ([name], mail, password, passwordSalt) VALUES ('Petrified Jackrabbit', 'user1@gmail.com', 'ACA2D6BD777AC00E4581911A87DCC8A11B5FAF11E08F584513E380A01693EF38', '123456')
-INSERT INTO [users] ([name], mail, password, passwordSalt) VALUES ('Insane Unicorn', 'user2@gmail.com', 'ACA2D6BD777AC00E4581911A87DCC8A11B5FAF11E08F584513E380A01693EF38', 'dasdlf')
-INSERT INTO [users] ([name], mail, password, passwordSalt) VALUES ('Depressed Macaw', 'user3@gmail.com', 'ACA2D6BD777AC00E4581911A87DCC8A11B5FAF11E08F584513E380A01693EF38', 'dfi213')
-INSERT INTO [users] ([name], mail, password, passwordSalt) VALUES ('Hostile Elephant', 'user4@gmail.com', 'ACA2D6BD777AC00E4581911A87DCC8A11B5FAF11E08F584513E380A01693EF38', 'rdfk9cv')
-INSERT INTO [users] ([name], mail, password, passwordSalt) VALUES ('Curious Grouse', 'user5@gmail.com', 'ACA2D6BD777AC00E4581911A87DCC8A11B5FAF11E08F584513E380A01693EF38', 'fmvi93')
-INSERT INTO [users] ([name], mail, password, passwordSalt) VALUES ('Bewildered Anaconda', 'user6@gmail.com', 'ACA2D6BD777AC00E4581911A87DCC8A11B5FAF11E08F584513E380A01693EF38', 'kd82ss')
+INSERT INTO [users] ([name], mail, password, passwordSalt) VALUES ('Insane Unicorn', 'user2@gmail.com', 'ACA2D6BD777AC00E4581911A87DCC8A11B5FAF11E08F584513E380A01693EF38', '123456')
+INSERT INTO [users] ([name], mail, password, passwordSalt) VALUES ('Depressed Macaw', 'user3@gmail.com', 'ACA2D6BD777AC00E4581911A87DCC8A11B5FAF11E08F584513E380A01693EF38', '123456')
+INSERT INTO [users] ([name], mail, password, passwordSalt) VALUES ('Hostile Elephant', 'user4@gmail.com', 'ACA2D6BD777AC00E4581911A87DCC8A11B5FAF11E08F584513E380A01693EF38', '123456')
+INSERT INTO [users] ([name], mail, password, passwordSalt) VALUES ('Curious Grouse', 'user5@gmail.com', 'ACA2D6BD777AC00E4581911A87DCC8A11B5FAF11E08F584513E380A01693EF38', '123456')
+INSERT INTO [users] ([name], mail, password, passwordSalt) VALUES ('Bewildered Anaconda', 'user6@gmail.com', 'ACA2D6BD777AC00E4581911A87DCC8A11B5FAF11E08F584513E380A01693EF38', '123456')
 
 
 INSERT INTO boards(boardName, description) VALUES ( 'General discussion', 'Discussions about general things about depression')
